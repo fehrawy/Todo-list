@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(88, 117, 211);
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+.Container {
+  width: 60%;
+  margin: 10% auto;
+}
+
+.listed {
+  background-color: white;
+  color: rgb(88, 117, 211);
+}
+
+.listed p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.listed span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid wheat;
+}
+
+.listed span.title {
+  background-color: gray;
+  color: turquoise;
+}
+
+.listed span.name,
+form input[type=text] {
+  width: 60%;
+}
+
+.listed span.age,
+form input[type=number] {
+  width: 30%;
+}
+
+.listed span.action,
+form input[type=submit] {
+  width: 10%;
+}
+
+.listed span.icon {
+  color: red;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px;
+  background-color: rgba(201, 230, 223, 0.548);
+  border: transparent;
+  border: 0.3px solid wheat;
+}
+
+form input[type=submit] {
+  background-color: rgb(49, 84, 201);
+  border: 0.3px solid blueviolet;
+  color: #fff;
+  cursor: pointer;
+}
